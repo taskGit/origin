@@ -9,5 +9,5 @@ var windowTest = {
 };
 
 window.onload = function() {
-  alert(windowTest);
+  alert(windowTest.test());
 };
