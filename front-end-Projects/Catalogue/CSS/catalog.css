@@ -1,0 +1,17 @@
+/* spread boxes  */
+
+.catalog-list li {
+	background-color: yellow;
+ 	margin: 0 1em 2em -1px;
+ 	list-style: none;
+ 	float: left;
+ 	width: 13em;
+ 	padding: 5px;
+} 
+	
+.catalog-list span {
+ 	float: right;
+ 	color: red;
+ 	border: none;
+ 	cursor: pointer;
+} 
