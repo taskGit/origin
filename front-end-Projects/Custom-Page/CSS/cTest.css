@@ -1,0 +1,133 @@
+
+body { font-family: 'Open Sans', sans-serif; /*padding-top: 70px;*/ }
+
+nav.navbar {
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.navbar { 
+	padding: 20px 15px; 
+	-webkit-transition: all 0.5s ease;/* Safari 3.2+, Chrome */
+	-moz-transition: all 0.5s ease;/* Firefox 4-15 */
+	-o-transition: all 0.5s ease;/* Opera 10.5-12.00 */
+	transition: all 0.5s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+nav.navbar { background-color: #333; margin-bottom:0; }
+
+.nav-logo img {
+	max-width: 170%;
+
+}
+
+nav.shrink {
+   padding: 5px 2px;
+   opacity: 0.9;
+}
+
+ul.navbar-right { margin-right: 15px; }
+
+.container-fluid .row aside { 
+	text-align: center;
+	background-color: #f7f7f7;
+	padding-top: 5%; 
+	height: 100%;
+}
+
+.sports-fig-top {  
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.sports-fig-top a {  
+	margin-left: 30px;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.row aside.sports-fig-list { background-color: #333;}
+
+.sports-fig-list img {
+   max-width: 115px;
+   width: 100%;
+   margin-top: 16px;
+   background-color: #fff;
+   border-radius: 5px;    
+}
+
+.range-list img {
+   max-width: 160px;
+   width: 100%;
+}
+
+.range-list figure {
+   margin-bottom: 4em;
+}
+
+section article { padding: 40px; }
+
+article img {
+   box-shadow: 3px 5px 8px #000;
+   margin-bottom: 2em;
+   width: 100%;  
+}
+
+footer {
+	background-color: #333;
+	color: #ddd;
+	padding: 20px;
+	text-align: center;
+}
+
+.container-sm-height {
+	padding-top: 4em;
+}
+
+
+
+/* Background Effect Section */
+
+.fill-screen {
+	background-size: cover;
+	background-position: center;
+}
+
+.fill-screen .video-title {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+}
+
+#video-bkg {
+	width: 100%; 
+	height: auto;
+}
+
+.screen {
+	background-image: url(file:///home/gabriel/Documents/Javascript/Bootstrap/images/sunsetMountain.jpg);
+	background-attachment: fixed;
+	height: 700px;
+}
+
+.screen1 {
+	background-image: url(file:///home/gabriel/Documents/Javascript/Bootstrap/images/national-elk-refuge-winter.jpg);
+	background-attachment: fixed;
+	height: 870px;
+}
+
+.screen2 {
+	background-image: url(file:///home/gabriel/Documents/Javascript/Bootstrap/images/jump-skating.jpg);
+	background-attachment: fixed;
+	height: 870px;
+}
+
+.content-filler {
+	min-height: 350px;
+}
