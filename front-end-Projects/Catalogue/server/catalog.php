@@ -1,7 +1,7 @@
 <?php
 	header("Content-Type: application/json; charset=UTF-8");
 
-	$db = new mysqli('localhost', 'Gabriel', '3peo23', 'Catalog'); // set connection
+	$db = new mysqli('localhost', 'user', 'password', 'Catalog'); // set connection
 	$result = $db->query("SELECT * FROM catalog_list"); // set queries selecting table
 	$content = array(); 
 
