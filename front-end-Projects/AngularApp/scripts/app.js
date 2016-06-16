@@ -43,6 +43,7 @@
 		};
 	});	
 	
+	// connect with file
 	newApp.controller('StoreController', ['$http', function ($http) {		
 		var store = this;	
 		
