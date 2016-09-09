@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Responsive Test</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<style type="text/css">
+		/* RESET default  */
+		#outlook a { padding:0; } /* force outlook to provide a 'view in browser' message */
+		
+		.ReadMsgBody { width:100%; } /* force Hotmail to display email at full width */
+		
+		.ExternalClass { width:100%; } /* force Hotmail to display email at full width */
+		
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+			line-height:100%;	/* force Hotmail to display normal line spacing */	
+		}	
+		
+		body, table, td, a { /* prevent Webkit and Windows mobile changing default text size */
+			-webkit-text-size-adjust:100%;
+			-ms-text-size-adjust:100%;		
+		}
+		
+		table, td { /* remove spacing between tables in Outlook 2007 and up */
+			mso-table-lspace:0pt; 
+			mso-table-rspace:0pt; 
+		} 
+		
+		img { /* Allow smoother rendering of resized images in IE */
+			-ms-interpolation-mode:bicubic;		
+		}
+		
+		/* RESET style  */
+		body {
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width: 100% !important;		
+		}
+		
+		img {
+			border:0;
+			height:auto;
+			line-height: 100%;
+			outline: none;
+			text-decoration: none;		
+		}		
+		
+		table { border-collapse: collapse !important; }
+		
+		/* IOS blue links */
+		.apple-links a {
+			color: #999999;
+			text-decoration: none;		
+		}
+		
+		/* Mobile styles */
+		
+		@media screen and (max-width: 599px) {
+			/* Header */
+			td[class="logo"] img {
+				margin: 0 auto !important;			
+			}
+			
+			td[class="hide"] {
+				display: none !important;			
+			}			
+			
+			table[class="wrapper"] {
+				width: 100% !important;
+			}		
+			
+			table[class="wrapper center"] {
+				min-width: 100% !important;			
+			}				
+			
+			/* Pre-body */			
+			
+			img[class="fluid-image"] {
+				width: 100% !important;			
+				height: auto !important;
+			}
+			
+			td[class="mobile-button"] div a {
+				padding: 12px 60px 12px 60px !important;			
+			}			
+			
+			/* Body */
+			
+			
+			/* Footer */				
+		}
+	</style>
+</head>
+<body style="margin:0; padding:0;">
+	<!-- Header table -->
+	<table border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;" width="100%">
+		<tr>
+			<td align="center" bgcolor="#111111" style="padding: 20px 10px 20px 10px;">
+				<table border="0" cellpadding="0" cellspacing="0" width="600" class="wrapper" style="width:100%; max-width:600px;">
+					<tr>
+						<td>		
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td align="left" class="logo">
+										<img src="http://multusev.com/mail-send/images-Litm/frontendmasters_logo.png" border="0" style="display:block; padding:0;" width="100" alt="Front-End Master" />									
+									</td>
+									<td align="right" class="hide" valign="middle" style="font-size:12px; font-family:Arial, sans serif; color:#aaaaaa;">
+										Some Text Header
+									</td>
+								</tr>
+							</table>						
+						</td>
+					</tr>
+				</table>							
+			</td>		
+		</tr>
+	</table>
+	
+	<!-- Body content table -->
+	<table border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;" width="100%">
+		<tr>
+			<td align="center" bgcolor="#333333" style="padding: 20px 10px 20px 10px;">
+				<!-- Hidden pre-header -->
+				<div class="hide" style="display:none; font-size:1px; color:#333333; line-height:1px; 
+				font-family:Arial, sans-serif; max-height:0px min-height:0px; 
+				opacity:0px; overflow:hidden; mso-hide:all;">
+					This won't be shown in the design, but will be visible in the inbox preview. 				
+				</div>
+				<table border="0" cellpadding="0" cellspacing="0" width="600" class="wrapper" style="width:100%; max-width:600px;">
+					<tr>
+						<td>		
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td align="center" class="image-callout">
+										<img src="http://multusev.com/mail-send/images-Litm/callout@2x.jpg" width="100%" border="0" 
+										style="display:block; padding:0; width:100%;" 
+										alt="Look at the class conference!" class="fluid-image" />
+									</td>
+								</tr>
+								<tr>
+									<td align="center" style="padding: 20px 0 20px 0; color:#ffffff; font-family:Arial, sans-serif; font-weight:bold; font-size:32px;">
+										Some content after header image
+									</td>
+								</tr>	
+								<tr>
+									<td style="padding: 20px 0 20px 0; color:#aaaaaa;">
+										In this module, you will learn how to use responsive design techniques to deliver a website that is suitable for mobile devices. You will learn how to leverage media queries and employ other techniques to enhance the experience for mobile users.									
+									</td>
+								</tr>	
+								<tr>
+									<td align="center" style="padding: 20px 0 20px 0; color:#aaaaaa;">
+										Once you've completed all the learning modules and explored the supplemental resources, you will be ready to take the final assessment.
+									</td>								
+								</tr>
+								<tr>
+									<td style="padding: 20px 0 20px 0; color:#aaaaaa;">
+										The final assessment is a 62-question assessment to <a href="" style="color: #f46e6c; text-decoration: none;" title="Progress">measure your progress</a> and achievement within Building Mobile-friendly Web Experiences. A passing score is needed to receive a job offer with an employer in your area.																			
+									</td>								
+								</tr>
+								<tr>
+									<td align="center" class="mobile-button">
+								      <div>
+								      <!--[if mso]>
+								      <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:140px;" arcsize="8%" stroke="f" fillcolor="#f46e6c">
+								        <w:anchorlock/>
+								        <center>
+								      <![endif]-->
+								        <a href="#0"
+								  			style="background-color:#f46e6c; border-radius:3px; color:#ffffff; display:inline-block; font-family:sans-serif; 
+								  			font-size:16px; font-weight:normal; line-height:40px; text-align:center; text-decoration:none; width:140px; 
+								  			-webkit-text-size-adjust:none;">Learn more &rarr;</a>
+								      <!--[if mso]>
+								        </center>
+								      </v:roundrect>
+								    	<![endif]-->
+								    	</div>									
+									</td>
+								</tr>																							
+							</table>						
+						</td>
+					</tr>
+				</table>							
+			</td>		
+		</tr>
+	</table>	
+	
+	<!-- Body content table -->
+	<table border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;" width="100%">
+		<tr>
+			<td align="center" bgcolor="#ebeef2" style="padding: 20px 10px 20px 10px;">
+				<table border="0" cellpadding="0" cellspacing="0" width="600" class="wrapper" style="width:100%; max-width:600px;">
+					<tr>
+						<td>
+							<!-- 2 colomns -->		
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tr>
+									<td>
+										<!-- left colomn -->		
+										<table border="0" cellpadding="0" cellspacing="0" width="47%" class="wrapper center" style="float:left; width:100%; max-width:282px;">
+											<tr>
+												<td>
+													<table border="0" cellpadding="0" cellspacing="0" width="100%">
+														<tr>
+															<td align="left">
+																<img src="http://multusev.com/mail-send/images-Litm/live-inperson@2x.jpg" style="display:block; padding:0; width:100%;"
+																alt="" width="280" class="fluid-image" />
+															</td>
+														</tr>		
+														<tr>
+															<td align="left" style="padding:20px 0 0 0; color:#111111; font-family:Arial, sans-serif; font-weight:bold; font-size:18px; line-height:22px;">
+																<b>Table-based Design</b>
+															</td>
+														</tr>	
+														<tr>
+															<td style="color:#666666;">
+																Code like it's 1999! Learn to love table-based design
+															</td>
+														</tr>																																																		
+													</table>													
+												</td>
+											</tr>																							
+										</table>	
+										<!-- right colomn -->		
+										<table border="0" cellpadding="0" cellspacing="0" width="47%" class="wrapper center" style="float:right; width:100%; max-width:282px;">
+											<tr>
+												<td class="mobile-column-right">
+													<table border="0" cellpadding="0" cellspacing="0" width="100%">
+														<tr>
+															<td>
+																<img src="http://multusev.com/mail-send/images-Litm/live-online@2x.jpg" style="display:block; padding:0; width:100%;"
+																alt="" width="280" class="fluid-image" />
+															</td>
+														</tr>	
+														<tr>
+															<td style="padding:20px 0 0 0; color:#111111; font-family:Arial, sans-serif; font-weight:bold; font-size:18px; line-height:22px;">
+																Inline style FTW
+															</td>
+														</tr>		
+														<tr>
+															<td style="color:#666666;">
+																After completing the Final Assessment, please contact info@capellalearning.com to receive your Certificate of Accomplishment or information about retaking the assessment. 
+															</td>
+														</tr>																																																	
+													</table>													
+												</td>
+											</tr>																							
+										</table>																					
+									</td>
+								</tr>																							
+							</table>						
+						</td>
+					</tr>
+				</table>							
+			</td>		
+		</tr>
+	</table>	
+	
+	<!-- Footer table -->
+	<table border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;" width="100%">
+		<tr>
+			<td align="center" bgcolor="" style="padding: 20px 10px 20px 10px;">
+				<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="wrapper" style="width:100%; max-width:600px;">
+					<tr>
+						<td align="center">		
+							Getting sick of these emails? <a href="#0" style="padding:10px 0 10px 0; color:#666666; font-family:Arial, sans-serif; font-weight:normal; font-size:14px; line-height:18px;">Unsubscribe</a> immediately.					
+						</td>
+					</tr>
+					<tr>
+						<td align="center">		
+							Table Junkie <br />
+							Some address here 1234 Main st. Anywhere, MA 51236				
+						</td>
+					</tr>					
+				</table>							
+			</td>		
+		</tr>
+	</table>	
+</body>
+</html>
