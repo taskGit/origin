@@ -111,19 +111,19 @@ footer {
 }
 
 .screen {
-	background-image: url(file:///home/gabriel/Documents/Javascript/Bootstrap/images/sunsetMountain.jpg);
+	background-image: url(Bootstrap/images/sunsetMountain.jpg);
 	background-attachment: fixed;
 	height: 700px;
 }
 
 .screen1 {
-	background-image: url(file:///home/gabriel/Documents/Javascript/Bootstrap/images/national-elk-refuge-winter.jpg);
+	background-image: url(Bootstrap/images/national-elk-refuge-winter.jpg);
 	background-attachment: fixed;
 	height: 870px;
 }
 
 .screen2 {
-	background-image: url(file:///home/gabriel/Documents/Javascript/Bootstrap/images/jump-skating.jpg);
+	background-image: url(Bootstrap/images/jump-skating.jpg);
 	background-attachment: fixed;
 	height: 870px;
 }
