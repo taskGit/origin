@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Act It Out!</title>
+	<style type="text/css">
+		body { margin: 0; padding: 0; min-width: 100% !important; -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
+		img { height: auto; }
+		a, a:visited, a:focus, a:hover { color: #4f4f4f; }
+		.content { width: 100%; max-width: 600px; }  /* listener for mobile       font-family: 'Quicksand', sans-serif; */
+		/*.innerpadding { padding: 30px 10px; 30px 10px; }   listener for mobile */
+		.paddingLineDate { padding: 5px 30px; }
+		.bodycopy { font-size: 12px; }  /* listener for mobile */
+		span.yshortcuts { color: #000; background-color: none; border: none; }  /* listener for Yahoo */
+		span.yshortcuts:hover, span.yshortcuts:active, span.yshortcuts:focus { color: #000; background-color: none; border: none; }  /* listener for Yahoo */
+		table td { border-collapse:collapse; }
+
+
+		table {
+			border-collapse: collapse; 
+			mso-table-lspace:0pt; 
+			mso-table-rspace:0pt; 
+			table-layout: fixed;
+		}
+	
+		table table { table-layout: auto; }
+		
+		[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: none !important;
+			font-size: inherit !important;
+			font-family: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+		}	
+
+		/*@media only screen and (min-device-width: 600px) { /*For Apple Mail
+			body .content { width: 100% !important; }
+			
+			body td table.social-media { 
+				max-width: 100% !important;
+				 
+			}			
+		}*/
+		
+		@media only screen and (max-width:609px), 
+		screen and (max-device-width: 609px) {
+			body td table.social-media { 
+				max-width: 100% !important;
+				 
+			}																
+		}
+	</style>
+</head>
+<body bgcolor="#e5e5e5">
+	<table width="100%" bgcolor="#479a95" border="0" cellpadding="0" cellspacing="0">	
+		<tr><td height="10" style="font-size:2px; line-height:10px;">&nbsp;</td></tr>
+		<tr>
+			<td> 
+				<!--[if (gte mso 9)|(IE)]>
+				<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+				<td>
+				<![endif]--> 
+				
+		      <!--[if mso]>
+		      <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:140px;" arcsize="10%" stroke="f" fillcolor="#c96d04">
+		        <w:anchorlock/>
+		        <center>
+		      <![endif]-->					
+				<table bgcolor="#c96d04" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%; 
+				max-width:600px; background-color:#c96d04; border-radius:5px;">						
+					<tr><td height="22">&nbsp;</td></tr>					
+					<tr>
+						<td>	
+							<table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:600px;">						
+								<tr>
+									<td width="22" valign="top" bgcolor="#c96d04">&nbsp;</td>	
+									<td style="max-width:556px;" valign="top">					  
+										<table bgcolor="#ffffff" align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:556px;">						
+											<tr>
+												<td bgcolor="#ffffff" class="innerpadding" align="center" style="padding-top:30px; padding-bottom:0;">
+													<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td bgcolor="#ffffff" align="center" width="100%" class="new_title">
+																<a href="https://www.youtube.com/watch?v=qmOICAdI2VQ">
+																	<img src="http://fernandezimages.net/Act_it_out/logo.jpg" alt="Act it Out!" width="230" height="230" style="display:block; border:none;" />
+																</a>
+															</td>
+														</tr>
+													</table>
+													<!-- Parent comment hides content for all Outlook and second nested comment, hides Outlook devices -->
+													<!–[if gte mso 9]>
+													<!--[if !mso]><!-->
+													<table style="width:556; max-height:0; overflow:hidden; float:left;" width="100%" class="spacer" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+													</table>
+													<!--<![endif]-->
+													<![endif]–>								
+												</td>
+											</tr>
+											<tr>
+												<td align="center" style="width:100%; padding-left:10px; padding-right:10px;">						
+													<table align="center" width="100%" class="bodycopy" border="0" cellspacing="0" cellpadding="0">
+														<tr><td height="40">&nbsp;</td></tr>								
+														<tr>
+															<td align="left" valign="top" style="font-family:'Quicksand', sans-serif; font-size:12px; color:#4f4f4f; line-height:18px;">
+																Dear Family, Friends and Colleagues,
+															</td>
+														</tr>								
+														<tr><td height="10" style="font-size:2px; line-height:10px;">&nbsp;</td></tr>								
+														<tr>
+															<td align="left" valign="top" style="font-family:'Quicksand', sans-serif; font-size:12px; color:#4f4f4f; font-weight:normal; line-height:18px;">
+																&nbsp;&nbsp;&nbsp;I hope you are having a great day. I&rsquo;m so happy to share Act It Out!, my most recent project, with all of you.
+															</td>
+														</tr>
+														<tr>
+															<td align="left" valign="top" style="font-family:'Quicksand', sans-serif; font-size:12px; color:#4f4f4f; font-weight:normal; line-height:18px;">
+																&nbsp;&nbsp;&nbsp;Act It Out! is an interactive TV show in which inner-city kids learn ELA concepts while putting on a tableaux scene.
+															</td>
+														</tr>								
+														<tr><td height="20">&nbsp;</td></tr>																		
+													</table>						
+												</td>
+											</tr>
+											<tr><td height="40">&nbsp;</td></tr>										
+											<tr>
+												<td align="center">						
+													<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td align="center" valign="top" style="font-family:'Quicksand', sans-serif; font-size:26px; font-weight:bold; color:#479a95; line-height:25px;">
+																WATCH OUR SIZZLE REEL:									
+															</td>								
+														</tr>
+														<tr><td height="20">&nbsp;</td></tr>
+														<tr>
+															<td align="center">
+																<a href="https://www.youtube.com/watch?v=qmOICAdI2VQ">
+																	<img src="http://fernandezimages.net/Act_it_out/Pelicula-01.jpg" alt="Act it Out" width="100%" height="auto" style="display:block; border:none; max-width:308px" />
+																</a>									
+															</td>								
+														</tr>
+														<tr><td height="50">&nbsp;</td></tr>
+														<tr>
+															<td align="center" valign="top" style="font-family:'Quicksand', sans-serif; font-size:26px; font-weight:bold; color:#479a95; line-height:25px;">
+																FOLLOW US ON SOCIAL MEDIA:									
+															</td>								
+														</tr>																						
+													</table>
+												</td>	
+											</tr>
+											<tr><td height="15" style="font-size:2px; line-height:15px;">&nbsp;</td></tr>					
+											<tr>
+												<td bgcolor="#ffffff" class="innerpadding" style="width:100%; padding-left:10px; padding-right:10px; padding-bottom:0;">
+													<!--[if (gte mso 9)|(IE)]>
+													<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
+													<tr>
+													<td>
+													<![endif]--> 						
+													<table width="100%" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td width="100%" bgcolor="#ffffff" align="center" style="max-width:536px;"> 	<!-- width="536" -->																																		
+																<table width="100%" align="left" class="social-media" border="0" cellspacing="0" cellpadding="0" style="max-width:268px;">															
+																	<tr>										
+																		<td width="134" align="center" valign="top" style="font-family:'Quicksand', sans-serif; line-height:18px;">
+																			<a href="https://www.facebook.com/ActItOutTV" style="font-size:12px; color:#4f4f4f; text-decoration:none;"><img src="http://fernandezimages.net/Act_it_out/Icono_Facebook-01.jpg" alt="Facebook" width="45" height="45" style="display:block; border:none;" /><br />
+																			&#64;ActitOutTV</a>
+																		</td>		
+																		<td width="134" align="center" valign="top" style="font-family:'Quicksand', sans-serif; line-height:18px;">
+																			<a href="https://twitter.com/ActItOutTV" style="font-size:12px; color:#4f4f4f; text-decoration:none;"><img src="http://fernandezimages.net/Act_it_out/Icono_Twitter.jpg" alt="Twitter" width="45" height="45" style="display:block; border:none;" /><br />
+																			&#64;ActitOutTV</a>
+																		</td>																																
+																	</tr>											
+																	<tr><td height="40">&nbsp;</td></tr>
+																</table>																			
+																<table width="100%" align="left" class="social-media" border="0" cellspacing="0" cellpadding="0" style="max-width:268px;">															
+																	<tr>										
+																		<td width="134" align="center" valign="top" style="font-family:'Quicksand', sans-serif; line-height:18px;">
+																			<a href="https://www.youtube.com/channel/UCf51FKrJSBwM0rZbn0HjrBw" style="font-size:12px; color:#4f4f4f; text-decoration:none;"><img src="http://fernandezimages.net/Act_it_out/Icono_Youtube.jpg" alt="Youtube" width="45" height="45" style="display:block; border:none;" /><br />
+																			Act it Out TV Show</a>
+																		</td>	
+																		<td width="134" align="center" valign="top" style="font-family:'Quicksand', sans-serif; line-height:18px;">
+																			<a href="https://www.instagram.com/actitoutshow" style="font-size:12px; color:#4f4f4f; text-decoration:none;"><img src="http://fernandezimages.net/Act_it_out/Icono_Instagram.jpg" alt="Instagram" width="45" height="45" style="display:block; border:none;" /><br />
+																			&#64;actitouttvshow</a>
+																		</td>																																		
+																	</tr>											
+																	<tr><td height="40">&nbsp;</td></tr>
+																</table>																
+															</td>																																																		
+														</tr>													
+													</table>
+													<!--[if (gte mso 9)|(IE)]>
+													</td>
+													</tr>
+													</table>
+													<![endif]-->							
+												</td>
+											</tr>																																																																											
+										</table>
+									</td>
+									<td width="22" valign="top" bgcolor="#c96d04">&nbsp;</td>	
+								</tr>	
+							</table>
+						</td>					
+					</tr>
+					<tr><td height="22" valign="top">&nbsp;</td></tr>																																																																													
+				</table>	
+		      <!--[if mso]>
+		        </center>
+		      </v:roundrect>
+		    	<![endif]-->
+										
+				<!--[if (gte mso 9)|(IE)]>
+				</td>
+				</tr>
+				</table>
+				<![endif]-->				
+			</td>
+		</tr>
+		<tr><td height="20">&nbsp;</td></tr>
+	</table>
+</body>
+</html>
