@@ -1,0 +1,835 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+	<title>Email Template</title>
+	
+	<style type="text/css">
+		.ReadMsgBody {width: 100%; background-color: #ffffff; }
+		.ExternalClass {width: 100%; background-color: #ffffff; }
+		.ExternalClass * {line-height: 100%; }
+		
+		body {
+			width: 100%; 
+			background-color: #ffffff; 
+			margin:0; 
+			padding:0; 
+			-webkit-font-smoothing: antialiased;
+			font-family: Arial, Helvetica, sans-serif; 
+			-webkit-text-size-adjust: 100%;
+		}
+		
+		table {
+			border-collapse: collapse; 
+			mso-table-lspace:0pt; 
+			mso-table-rspace:0pt; 
+			table-layout: fixed;
+		}
+		
+		table table { table-layout: auto; }
+		
+		[x-apple-data-detectors] { /* disable default apple mobile style */
+			color: inherit !important;
+			text-decoration: none !important;
+			font-size: inherit !important;
+			font-family: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+		}	
+		
+		
+		@media only screen and (max-width: 480px) {
+			/**** General ****/	
+			.center { text-align: center !important; }
+			
+			.hide { display: none !important; }
+			
+			.w100 { width:100% !important; height:auto !important; }
+			
+			.w100-unsub { width:100% !important; }
+			
+			.w90 { width:90% !important; }
+			
+			.w50 { width:50% !important; }
+			
+			/*** Padding ****/
+			.killPadding { padding:0 !important; }
+			
+			.padLeft10 { padding-left:10px !important; }
+			
+			.padRight10 { padding-right:10px !important; }
+			
+			.padTop5 { padding:5px 0 0 0 !important; }
+			
+			.padTop10 { padding:10px 0 0 0 !important}
+			
+			/* Mobile Spacer */
+			.m-spacerPad { padding-top:25px !important; }
+			
+			.m-spacerWhite { background-color: #ffffff !important; }
+			
+			/**** Swaps ****/
+			#header-art {
+				display:block;
+				background-image: url(http://multusev.com/portfolio/sites/images/m-header-art.jpg) !important;
+				background-repeat: no-repeat !important;
+				background-position: center !important;
+				width: 100% !important;
+				height: 36px !important;
+				padding: 0;
+			}
+			
+			#footer-art {
+				display:block;
+				background-image: url(http://multusev.com/portfolio/sites/images/m-footer-art.jpg) !important;
+				background-repeat: no-repeat !important;
+				background-position: center !important;
+				width: 100% !important;
+				height: 36px !important;
+				padding: 0;
+			}
+			
+			.headerBtn {
+				display:block;
+				background-repeat: no-repeat !important;
+				background-position: center !important;
+				width: 183px !important;
+				height: 43px !important;
+				padding:0;
+			}
+			
+			#top-call { background-image: url(http://multusev.com/portfolio/sites/images/header-m-call.jpg) !important; }
+			
+			#top-dir { background-image: url(http://multusev.com/portfolio/sites/images/header-m-dir.jpg) !important; }
+			
+			.m-callIco {
+				display:inline-block;
+				background-image: url(http://multusev.com/portfolio/sites/images/ico-new-call.jpg) !important;
+				vertical-align:middle;
+				background-repeat: no-repeat !important;
+				background-position: center !important;
+				width: 29px !important;
+				height: 33px !important;
+				padding:0;
+			}
+			
+			.m-contactBtn {
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:15px !important;
+				line-height:17px !important;
+				color:#FFFFFF !important;
+				font-style:italic;
+				font-weight:bold;
+				letter-spacing:1px;
+				text-align:center;
+				height:60px !important;
+				border-left: solid 3px #FFF;
+				padding:0 5px !important;
+			}
+			
+			.m-contactContent:after { content:"CONTACT US"; }
+			
+			.m-inventoryBtn {
+				font-size: 15px !important;
+				line-height:17px !important;
+				text-align:center !important;
+				padding:0 5px !important;
+			}
+			
+			.mNav {
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:18px !important;
+				line-height:20px !important;
+				color:#FFFFFF !important;
+				font-style:italic;
+				font-weight:bold;
+				letter-spacing:1px;
+				text-align:center;
+				text-decoration:none;
+				height:58px !important;
+				background-color:#a8a8a8;
+				border-bottom: solid 3px #FFF;
+			}
+			
+			.mNavLink1 { padding:18px 50px; }
+			
+			.mNavLink2 { padding:18px 15px; }
+			
+			#mNav-new:after { content:"NEW INVENTORY"; }
+			
+			#mNav-used:after { content:"FINANCE"; }
+			
+			#mNav-service:after { content:"SCHEDULE SERVICE"; }
+			
+			#mNav-contact:after { content:"CONTACT US"; }
+		}
+		
+		/* Mobile Flexy Header */
+		@media only screen and (max-width: 455px) {
+			.m-header { width: 52% !important; }
+			
+			.m-header a { font-size: 14px !important; } /* edited by Gab */
+		}
+		
+		@media only screen and (max-width: 380px) {
+			.headerBtn {
+				width:150px !important; 
+				height: 35px !important; 
+				background-size:contain;
+			}
+		}
+		
+		@media only screen and (max-width: 350px) {
+			.m-contactContent:after {
+				content:"CONTACT \A US \00a0"; 
+				white-space:pre; }
+			
+			.m-inventoryBtn {
+				font-size: 14px !important;
+				line-height:16px !important;
+			}
+		}
+	</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix" style="font-family: Arial, Helvetica, sans-serif" bgcolor="#ffffff">
+<!-- Header -->
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" style="padding-bottom:20px;">
+
+			<!-- Header Art -->
+			<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td height="14" align="center" bgcolor="#ca0000" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+			
+						<!-- Pre-header -->
+						<table align="center" width="600" cellspacing="0" cellpadding="0" border="0" class="hide" style="min-width:600px;">
+							<tr>
+								<td  align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 15px; color: #ffffff; padding: 10px 0 10px 0;">
+									Free BBQ &amp; New Jersey Circus Entertainment from Noon &ndash; 4PM&#33;
+								</td>
+							</tr>
+						</table>			
+			
+					</td>
+				</tr>
+				<tr>
+					<td height="3" bgcolor="#181818" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"></td>
+				</tr>
+				<tr>
+					<td align="center" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><span id="header-art">
+						<img src="http://multusev.com/portfolio/sites/images/header-art.jpg" alt="" width="600" height="31" border="0" class="hide" /></span>
+					</td>
+				</tr>
+			</table>
+
+			<!-- Letter Head -->
+			<table width="560" border="0" align="center" cellpadding="0" cellspacing="0" class="w90">
+				<tr>
+					<td class="w50" width="185" align="left" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+						<a href="http://www.freeholddodge.net/?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15"><img src="http://multusev.com/portfolio/sites/images/logo.jpg" alt="Dealership" width="185" height="95" border="0" class="w100" style="font-family:Arial, Helvetica, sans-serif; color:#000000; font-size: 20px; line-height:20px;max-width:185px; min-width:125px;" /></a>
+					</td>
+					<td width="375" valign="middle" class="w50">
+					
+						<!-- Call -->
+						<table class="w100" width="375" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="245" align="right" class="hide" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><a href="tel://"><img src="http://multusev.com/portfolio/sites/images/ico-call.jpg" alt="Call: " width="26" height="30" border="0" style="font-family:Arial, Helvetica, sans-serif; color:#000000; font-size:20px; line-height:20px;" /></a></td>
+								<td class="hide" width="130" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:18px;line-height:20px;color:#1e007f;text-align:right;font-weight:bold;"><a style="text-decoration:none; color:#1e007f;" href="tel://">866-377-4584</a></td>
+								
+								<!-- Mobile Call -->
+								<td width="1" align="right" class="w100 padLeft10">
+									<a href="tel://"><span id="top-call" class="headerBtn"><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" /></span></a>
+								</td>
+							</tr>
+						</table>
+						
+						<!-- Nav -->
+						<table class="w100" width="375" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="124" class="hide" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:18px;color:#000000;text-align:right;font-weight:bold;font-style:italic;padding-top:15px;"><a style="text-decoration:none; color:#000000;" href="http://www.freeholddodge.net/new-inventory/index.htm?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15">New</a></td>
+								<td width="77" class="hide" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:18px;color:#000000;text-align:right;font-weight:bold;font-style:italic;padding-top:15px;"><a style="text-decoration:none; color:#000000;" href="http://www.freeholddodge.net/financing/index.htm?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15">Finance</a></td>
+								<td width="75" class="hide" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:18px;color:#000000;text-align:right;font-weight:bold;font-style:italic;padding-top:15px;"><a style="text-decoration:none; color:#000000;" href="http://www.freeholddodge.net/service/index.htm?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15">Service</a></td>
+								<td width="98" class="hide" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:18px;color:#000000;text-align:right;font-weight:bold;font-style:italic;padding-top:15px;"><a style="text-decoration:none; color:#000000;" href="http://www.freeholddodge.net/dealership/directions.htm?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15">Directions</a></td>
+								
+								<!-- Mobile Nav -->
+								<td width="1" align="right" class="w100 padLeft10" style="padding-top:3px;"><a href="#directions?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME"><span id="top-dir" class="headerBtn"><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" /></span></a></td>
+							</tr>
+						</table>
+						
+					</td>
+				</tr>
+			</table>
+
+    </td>
+  </tr>
+</table>
+<!-- //END Header -->
+
+
+<!-- Anchors & Main Graphic -->
+<table width="100%" bgcolor="#dcdcdc" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">
+    
+			<!-- shadow image is not required -->
+			<table width="560" border="0" align="center" cellpadding="0" cellspacing="0" class="w100">
+				<tr>
+					<td style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+						<img src="http://multusev.com/portfolio/sites/images/header-shadow.jpg" alt="" width="560" height="34" border="0" class="w100" />
+					</td>
+				</tr>
+			</table>
+			<!-- shadow image is not required -->
+			
+			<table class="w90" width="560" align="center" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+						<a href="#newcars?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME"><img src="http://multusev.com/portfolio/sites/images/freeholdDodge_customerAppreciation-emailGraphic_10-15.jpg" alt="Main Graphic" width="560" height="357" border="0" class="w100" style="font-family:Arial, Helvetica, sans-serif; color:#000000; font-size: 20px; line-height:20px;" /></a>
+					</td>
+				</tr>
+			</table>
+
+    </td>
+  </tr>
+</table>
+<!-- //END Anchors & Main Graphic -->
+
+
+<!-- Featured New -->
+<table width="100%" bgcolor="#efefef" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding:30px 0;" align="center">
+
+			<!-- Flexy Section Header -->
+			<table class="w90" width="560" align="center" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="12" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+						<img src="http://multusev.com/portfolio/sites/images/header-left.jpg" alt="" width="12" height="85" />
+					</td>
+					<td>
+
+						<table class="w100" width="536" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="padTop5 m-header" bgcolor="#1C0077" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:17px;line-height:18px;color:#ffffff;text-align:left;font-weight:bold;letter-spacing:1px;font-style:italic;padding-left:20px;padding-top:5px;">
+									<a style="color:#FFFFFF;text-decoration:none;" href="#servicespecial?utm_source=etargeter&amp;utm_medium=email&amp;utm_campaign=FILENAME">NEW VEHICLE SPECIALS</a>
+								</td>
+								<td width="24" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><img src="http://multusev.com/portfolio/sites/images/header-center-1.jpg" alt="" width="24" height="50" /></td>
+								<td width="175" bgcolor="#dcdcdc" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:18px;color:#1c0077;text-align:right;font-weight:bold;letter-spacing:1px;font-style:italic;padding-top:5px;">
+									<a style="color:#1c0077; text-decoration:none;" href="#?utm_source=etargeter&amp;utm_medium=email&amp;utm_campaign=FILENAME">SHOP INVENTORY</a>
+								</td>
+							</tr>
+							<tr>
+								<td bgcolor="#12004d" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><img src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" /></td>
+								<td width="24" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><img src="http://multusev.com/portfolio/sites/images/header-center-2.jpg" alt="" width="24" height="5" /></td>
+								<td width="175" bgcolor="#8f8f8f" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+								<img src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" />
+								</td>
+							</tr>
+						</table>
+						
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td height="30" valign="top" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+								<img class="w100" src="http://multusev.com/portfolio/sites/images/header-bottom.jpg" alt="" width="536" height="30" />
+								</td>
+							</tr>
+						</table>
+
+					</td>
+					<td width="12" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+						<img src="http://multusev.com/portfolio/sites/images/header-right.jpg" alt="" width="12" height="85" />
+					</td>
+				</tr>
+			</table>
+
+
+			<!-- Row 1 Container -->
+			<table class="w90" width="560" align="center" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center" class="padTop10">
+					
+						<!-- Carbox 1 -->
+						<table class="w100" width="268" align="left" border="0" cellspacing="0" cellpadding="0">
+							
+							<tr>
+								<td style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:20px;line-height:22px;color:#1c0077;text-align:left;font-style:italic;padding-top:5px;" >New 2015 Dodge
+								</td>
+							</tr>
+							<tr>
+								<td style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:28px;line-height:30px;color:#1c0077;text-align:left;font-style:italic;font-weight:bold;padding-bottom:5px;">Challenger SXT</td>
+							</tr>
+							<tr>
+								<td align="center" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+									<a href="http://www.freeholddodge.net/new-inventory/index.htm?reset=InventoryListing&make=Dodge&model=Challenger&start=0?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15">
+										<img src="http://multusev.com/portfolio/sites/images/New_2015_Dodge_Challenger_SXT.jpg" alt="" width="268" height="214" border="0" class="w100" />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td height="60" bgcolor="#1c0077" class="center" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:17px;color:#ffffff;text-align:center;font-style:italic;padding:0 10px;">Bluetooth, Cruise Control, Backup Camera, Power W/L, Heated Seats</td>
+							</tr>
+							<tr>
+								<td height="90" bgcolor="#FFFFFF" class="center killPadding" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:60px;line-height:82px;color:#1c0077;text-align:center;font-style:italic;font-weight:bold;">$199</td>
+							</tr>
+							<tr>
+								<td bgcolor="#FFFFFF" class="center" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:20px;color:#5a5a5a;text-align:center;font-style:italic;padding-bottom:10px;">
+									Lease for $199/MO<!--<br />
+									STK# 000000 | VIN 000000-->
+								</td>
+							</tr>
+							<tr>
+								<td bgcolor="#a8a8a8" height="60" align="center">
+								
+									<!-- CTA Container -->
+									<table width="100%" bgcolor="" align="center" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td class="w50" width="266" align="center">
+												
+												<!-- View Inventory Btn -->
+												<table class="w100" width="266" align="center" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="w100 m-inventoryBtn" width="208" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:18px;line-height:20px;color:#ffffff;text-align:right;font-style:italic;font-weight:bold;letter-spacing:1px;padding-right:10px;"><a style="text-decoration:none; color:#ffffff;" href="#?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME">VIEW INVENTORY</a></td>
+														<td class="padRight10" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><a href="#?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME"><img src="http://multusev.com/portfolio/sites/images/ico-new.jpg" alt="" width="29" height="33" border="0" /></a></td>
+													</tr>
+												</table>							
+								
+											</td>
+											<td class="w50" align="center">
+									
+												<!-- Call Us Mobile Button -->
+												<table class="w100" width="2" align="center" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="w100 m-contactBtn" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;color:#a8a8a8;">
+											<a style="text-decoration:none; color:#ffffff;" href="tel://"><span class="m-contactContent"></span></a>
+															</td>
+															<td class="padRight10" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;color:#a8a8a8;">
+											<a style="text-decoration:none; color:#ffffff;" href="tel://"><span class="m-callIco"><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" /></span></a>
+															</td>
+														</tr>
+												</table>
+									
+											</td>
+										</tr>
+									</table>
+								
+								</td>
+							</tr>
+						</table>
+						
+						<!-- Carbox 2 -->
+						<table class="w100" width="268" align="right" border="0" cellspacing="0" cellpadding="0">
+							
+							<tr>
+								<td style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:20px;line-height:22px;color:#1c0077;text-align:left;font-style:italic;padding-top:5px;" class="m-spacerPad">New 2015 Dodge
+								</td>
+							</tr>
+							<tr>
+								<td style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:28px;line-height:30px;color:#1c0077;text-align:left;font-style:italic;font-weight:bold;padding-bottom:5px;">Durango Limited</td>
+							</tr>
+							<tr>
+								<td align="center" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+									<a href="http://www.freeholddodge.net/new-inventory/index.htm?reset=InventoryListing&make=Dodge&model=Durango&start=0?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15">
+										<img src="http://multusev.com/portfolio/sites/images/New_2015-Dodge-Durango-Limited.jpg" alt="" width="268" height="214" border="0" class="w100" />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td height="60" bgcolor="#1c0077" class="center" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:17px;color:#ffffff;text-align:center;font-style:italic;padding:0 10px;">Bluetooth, Cruise Control, Backup Camera, Power W/L, Heated Seats</td>
+							</tr>
+							<tr>
+								<td height="90" bgcolor="#FFFFFF" class="center killPadding" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:60px;line-height:82px;color:#1c0077;text-align:center;font-style:italic;font-weight:bold;">$339</td>
+							</tr>
+							<tr>
+								<td bgcolor="#FFFFFF" class="center" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:20px;color:#5a5a5a;text-align:center;font-style:italic;padding-bottom:10px;">
+									Lease for $339/MO<!--<br />
+									STK# 000000 | VIN 000000-->
+								</td>
+							</tr>
+							<tr>
+								<td bgcolor="#a8a8a8" height="60" align="center">
+								
+									<!-- CTA Container -->
+									<table width="100%" bgcolor="" align="center" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td class="w50" width="266" align="center">
+												
+												<!-- View Inventory Btn -->
+												<table class="w100" width="266" align="center" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="w100 m-inventoryBtn" width="208" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:18px;line-height:20px;color:#ffffff;text-align:right;font-style:italic;font-weight:bold;letter-spacing:1px;padding-right:10px;"><a style="text-decoration:none; color:#ffffff;" href="#?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME">VIEW INVENTORY</a></td>
+														<td class="padRight10" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><a href="#?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME"><img src="http://multusev.com/portfolio/sites/images/ico-new.jpg" alt="" width="29" height="33" border="0" /></a></td>
+													</tr>
+												</table>							
+								
+											</td>
+											<td class="w50" align="center">
+									
+												<!-- Call Us Mobile Button -->
+												<table class="w100" width="2" align="center" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="w100 m-contactBtn" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;color:#a8a8a8;">
+											<a style="text-decoration:none; color:#ffffff;" href="tel://"><span class="m-contactContent"></span></a>
+															</td>
+															<td class="padRight10" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;color:#a8a8a8;">
+											<a style="text-decoration:none; color:#ffffff;" href="tel://"><span class="m-callIco"><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" /></span></a>
+															</td>
+														</tr>
+												</table>
+									
+											</td>
+										</tr>
+									</table>
+								
+								</td>
+							</tr>
+						</table>
+			
+					</td>
+				</tr>
+			</table>
+
+
+			<!-- Divider -->
+			<table class="w90" width="560" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td height="25" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+					<img src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" />
+					</td>
+				</tr>
+				<tr>
+					<td bgcolor="#d7d7d7" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+					<img src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" />
+					</td>
+				</tr>
+				<tr>
+					<td bgcolor="#ffffff" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+					<img src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" />
+					</td>
+				</tr>
+				<tr>
+					<td height="25" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+					<img src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" />
+					</td>
+				</tr>
+			</table>
+
+
+			<!-- Row 2 Container -->
+			<table class="w90" width="560" align="center" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center">
+					
+						<!-- Carbox 1 -->
+						<table class="w100" width="268" align="left" border="0" cellspacing="0" cellpadding="0">
+							
+							<tr>
+								<td style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:20px;line-height:22px;color:#1c0077;text-align:left;font-style:italic;">New 2015 Dodge
+								</td>
+							</tr>
+							<tr>
+								<td style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:28px;line-height:30px;color:#1c0077;text-align:left;font-style:italic;font-weight:bold;padding-bottom:5px;">Dart SXT</td>
+							</tr>
+							<tr>
+								<td align="center" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+									<a href="http://www.freeholddodge.net/new-inventory/index.htm?reset=InventoryListing&make=Dodge&model=Dart&start=0?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15">
+										<img src="http://multusev.com/portfolio/sites/images/New_2016_Dodge_Dart_SXT.jpg" alt="Dodge Dart" width="268" height="214" border="0" class="w100" />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td height="60" bgcolor="#1c0077" class="center" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:17px;color:#ffffff;text-align:center;font-style:italic;padding:0 10px;">Bluetooth, Cruise Control, Backup Camera, Power W/L, Heated Seats</td>
+							</tr>
+							<tr>
+								<td height="90" bgcolor="#FFFFFF" class="center killPadding" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:60px;line-height:82px;color:#1c0077;text-align:center;font-style:italic;font-weight:bold;">$17,995</td>
+							</tr>
+							<tr>
+								<td bgcolor="#FFFFFF" class="center" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:20px;color:#5a5a5a;text-align:center;font-style:italic;padding-bottom:10px;">
+									Buy for $17,995<!--<br />
+									STK# 000000 | VIN 000000-->
+								</td>
+							</tr>
+							<tr>
+								<td bgcolor="#a8a8a8" height="60" align="center">
+								
+									<!-- CTA Container -->
+									<table width="100%" bgcolor="" align="center" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td class="w50" width="266" align="center">
+												
+												<!-- View Inventory Btn -->
+												<table class="w100" width="266" align="center" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="w100 m-inventoryBtn" width="208" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:18px;line-height:20px;color:#ffffff;text-align:right;font-style:italic;font-weight:bold;letter-spacing:1px;padding-right:10px;"><a style="text-decoration:none; color:#ffffff;" href="#?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME">VIEW INVENTORY</a></td>
+														<td class="padRight10" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><a href="#?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME"><img src="http://multusev.com/portfolio/sites/images/ico-new.jpg" alt="" width="29" height="33" border="0" /></a></td>
+													</tr>
+												</table>							
+								
+											</td>
+											<td class="w50" align="center">
+									
+												<!-- Call Us Mobile Button -->
+												<table class="w100" width="2" align="center" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="w100 m-contactBtn" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;color:#a8a8a8;">
+											<a style="text-decoration:none; color:#ffffff;" href="tel://"><span class="m-contactContent"></span></a>
+															</td>
+															<td class="padRight10" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;color:#a8a8a8;">
+											<a style="text-decoration:none; color:#ffffff;" href="tel://"><span class="m-callIco"><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" /></span></a>
+															</td>
+														</tr>
+												</table>
+									
+											</td>
+										</tr>
+									</table>
+								
+								</td>
+							</tr>
+						</table>
+						
+						<!-- Carbox 2 -->
+						<table class="w100" width="268" align="right" border="0" cellspacing="0" cellpadding="0">
+							
+							<tr>
+								<td style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:20px;line-height:22px;color:#1c0077;text-align:left;font-style:italic;" class="m-spacerPad">New 2015 Dodge
+								</td>
+							</tr>
+							<tr>
+								<td style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:28px;line-height:30px;color:#1c0077;text-align:left;font-style:italic;font-weight:bold;padding-bottom:5px;">Charger SXT</td>
+							</tr>
+							<tr>
+								<td align="center" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+									<a href="http://www.freeholddodge.net/new-inventory/index.htm?reset=InventoryListing&make=Dodge&model=Charger&start=0?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15">
+										<img src="http://multusev.com/portfolio/sites/images/New_2015_Dodge_Charger_SXT.jpg" alt="" width="268" height="214" border="0" class="w100" />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td height="60" bgcolor="#1c0077" class="center" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:17px;color:#ffffff;text-align:center;font-style:italic;padding:0 10px;">Bluetooth, Cruise Control, Backup Camera, Power W/L, Heated Seats</td>
+							</tr>
+							<tr>
+								<td height="90" bgcolor="#FFFFFF" class="center killPadding" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:60px;line-height:82px;color:#1c0077;text-align:center;font-style:italic;font-weight:bold;">$25,595</td>
+							</tr>
+							<tr>
+								<td bgcolor="#FFFFFF" class="center" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:20px;color:#5a5a5a;text-align:center;font-style:italic;padding-bottom:10px;">
+									Buy for $25,595<!--<br />
+									STK# 000000 | VIN 000000-->
+								</td>
+							</tr>
+							<tr>
+								<td bgcolor="#a8a8a8" height="60" align="center">
+								
+									<!-- CTA Container -->
+									<table width="100%" bgcolor="" align="center" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td class="w50" width="266" align="center">
+												
+												<!-- View Inventory Btn -->
+												<table class="w100" width="266" align="center" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="w100 m-inventoryBtn" width="208" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:18px;line-height:20px;color:#ffffff;text-align:right;font-style:italic;font-weight:bold;letter-spacing:1px;padding-right:10px;"><a style="text-decoration:none; color:#ffffff;" href="#?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME">VIEW INVENTORY</a></td>
+														<td class="padRight10" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><a href="#?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME"><img src="http://multusev.com/portfolio/sites/images/ico-new.jpg" alt="" width="29" height="33" border="0" /></a></td>
+													</tr>
+												</table>							
+								
+											</td>
+											<td class="w50" align="center">
+									
+												<!-- Call Us Mobile Button -->
+												<table class="w100" width="2" align="center" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="w100 m-contactBtn" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;color:#a8a8a8;">
+																<a style="text-decoration:none; color:#ffffff;" href="tel://"><span class="m-contactContent"></span></a>
+															</td>
+															<td class="padRight10" height="1" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;color:#a8a8a8;">
+																<a style="text-decoration:none; color:#ffffff;" href="tel://"><span class="m-callIco"><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" /></span></a>
+															</td>
+														</tr>
+												</table>
+									
+											</td>
+										</tr>
+									</table>
+								
+								</td>
+							</tr>
+						</table>
+			
+					</td>
+				</tr>
+			</table>
+
+    </td>
+  </tr>
+</table>
+<!-- //END Featured New -->
+
+
+<!-- Footer -->
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">
+
+			<table class="w90" width="560" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><img src="http://multusev.com/portfolio/sites/images/footer-shadow.jpg" alt="" width="560" height="34" border="0" class="w100" />
+					</td>
+				</tr>
+			</table>
+
+			<!-- Mobile Nav -->
+			<table width="90%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="mNav" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+					<a class="mNavLink1" href="http://www.freeholddodge.net/new-inventory/index.htm?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15" style="text-decoration:none;color:#FFFFFF;"><span id="mNav-new"></span></a><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="Call" width="1" height="1" border="0" />
+					</td>
+				</tr>
+				<tr>
+					<td class="mNav" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+					<a class="mNavLink2" href="http://www.freeholddodge.net/financing/index.htm?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15" style="text-decoration:none;color:#FFFFFF;"><span id="mNav-used"></span></a><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" />
+					</td>
+				</tr>
+				<tr>
+					<td class="mNav" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+					<a class="mNavLink2" href="http://www.freeholddodge.net/service/index.htm?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15" style="text-decoration:none;color:#FFFFFF;"><span id="mNav-service"></span></a><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" />
+					</td>
+				</tr>
+				<tr>
+					<td class="mNav" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+					<a class="mNavLink1" href="http://www.freeholddodge.net/dealership/directions.htm?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15" style="text-decoration:none;color:#FFFFFF;"><span id="mNav-contact"></span></a><img class="hide" src="http://www.streamcompanies.com/spacer.gif" alt="" width="1" height="1" border="0" />
+					</td>
+				</tr>
+			</table>
+
+			<!-- Footer Content -->
+			<table class="w90" width="560" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td align="center" style="padding-top:10px;">
+					
+						<table class="w100" width="185" align="left" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="center" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><a href="http://www.freeholddodge.net/?utm_source=etargeter&utm_medium=email&utm_campaign=Freehold-Dodge_10-15"><img src="http://multusev.com/portfolio/sites/images/logo.jpg" alt="Dealership" width="185" height="95" border="0" style="font-family:Arial, Helvetica, sans-serif; color:#000000; font-size:20px; line-height:20px;" /></a>
+								</td>
+							</tr>
+						</table>
+						
+						<table class="w100" width="300" align="right" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td class="center padTop10" style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:18px;color:#000000;text-align:right;font-style:italic;">
+									<a style="text-decoration:none; color:#000000;" href="#directions?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME">299 South St., Freehold, NJ 0772</a>
+									<br />
+									<strong><a style="text-decoration:none; color:#000000;" href="tel://">886-377-4584</a> | <a style="text-decoration:none; color:#000000;" href="#home?utm_source=etargeter&utm_medium=email&utm_campaign=FILENAME">www.domain.com</a></strong>
+								</td>
+							</tr>
+							<tr>
+								<td class="padTop10" align="center" style="padding:10px 0 0 175px;">
+
+									<table class="center" width="115" align="center" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td align="right" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><a href="https://www.facebook.com/pages/Freehold-Dodge-Subaru/374767179851"><img src="http://multusev.com/portfolio/sites/images/ico-sm1-fb.jpg" alt="Facebook" width="33" height="37" border="0" /></a>
+											</td>
+											<td width="41" align="right" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><a href="https://twitter.com/freehold_dodge"><img src="http://multusev.com/portfolio/sites/images/ico-sm2-twit.jpg" alt="twitter" width="33" height="37" border="0" /></a>
+											</td>
+											<td width="41" align="right" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><a href="https://www.youtube.com/channel/UChcgTEDdp16RrCFHaiJWcKg"><img src="http://multusev.com/portfolio/sites/images/ico-sm4-yt.jpg" alt="YouTube" width="33" height="37" border="0" /></a>
+											</td>
+										</tr>
+									</table>
+
+								</td>
+							</tr>
+						</table>
+						
+					</td>
+				</tr>
+			</table>
+			
+			<!-- Footer Art -->
+			<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td align="center" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"><span id="footer-art"><img src="http://multusev.com/portfolio/sites/images/footer-art.jpg" alt="" width="600" height="28" border="0" class="hide" /></span>
+					</td>
+				</tr>
+				<tr>
+					<td height="3" bgcolor="#ca0000" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;"></td>
+				</tr>
+				<tr>
+					<td align="center" bgcolor="#181818" style="font-size:0px;mso-line-height-rule:exactly;line-height:0px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;">
+
+						<!-- Disclaimers -->
+						<table width="600" class="w100" border="0" cellpadding="0" cellspacing="0" align="center">
+							<tr>
+								<td style="mso-line-height-rule:exactly;-webkit-text-size-adjust:none;-ms-text-size-adjust:none; font-family:Arial, Helvetica, sans-serif;font-size:13px;line-height:16px;color:#CCCCCC;text-align:left;padding:10px;" >
+									*Disclaimer. See dealership for details. New 2015 Dodge Challenger SXT: VIN FH911268. Automatic. Lease for $199/mo for 36 months with
+									$2,995 due at signing. Includes bank fee. Lease responsible for excess wear and tear. No security deposit
+									required. MSRP $27,990. Lease for 10k mi/yr with $.25 per mile thereafter. See dealer for complete
+									details. Offer expires 10/31/15.
+									<br /><br />
+									New 2015 Dodge Durango Limited: VIN FH911268. Automatic. Lease for $199/mo for 36 months with
+									$2,995 due at signing. Includes bank fee. Lease responsible for excess wear and tear. No security deposit
+									required. MSRP $27,990. Lease for 10k mi/yr with $.25 per mile thereafter. See dealer for complete
+									details. Offer expires 10/31/15
+									<br /><br />
+									New 2015 Dodge Durango Limited: VIN FH866705. Automatic. Buy for $25,595. MSRP $31,985. $3,250
+									Factory Rebate, $750 Chrysler Capital Bonus, $1,000 Conquest Rebate. See dealer for complete details.
+									Offer expires 10/31/15.
+								</td>
+							</tr>
+						</table>
+						
+						<!-- Unsub Footer -->
+						<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="w100">
+							<tr>
+								<td width="200" height="50" align="center" class="w100-unsub">
+								
+								<table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+									<tr>
+										<td width="150" height="25" align="center" bgcolor="#ffffff" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; color: #F00000; display: block;"><a href="http://www.ne16.com/u?id=[memberidchar]&o=[outmail.messageid]&e=[emailaddr]&c=F&l=[list.name]" style="color: #F00000; font-size:13px; line-height:24px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; text-decoration: none;  width:100%; display:inline-block">Unsubscribe</a></td>
+									</tr>
+								</table>
+								
+								</td>
+								<td class="hide" width="200" height="50" align="center">    
+								
+								<table width="150" border="0" cellspacing="0" cellpadding="0" class="hide">
+									<tr>
+										<td width="150" height="25" align="center" bgcolor="#ffffff" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; color: #F00000; display: block;"><a href="http://editor.ne16.com/htmlEditor/EmailFriend.aspx?FileID=[[FileID]]&amp;memberid=%%memberid%%&amp;messageid=%%outmail.messageid%%" style="color: #F00000; font-size:13px; line-height:24px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; text-decoration: none;  width:100%; display:inline-block">Forward to a Friend</a></td>
+									</tr>
+								</table>
+								
+								</td>
+								<td width="200" height="50" align="center" class="hide">    
+								
+								<table width="150" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td width="150" height="25" align="center" bgcolor="#ffffff" style="-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; color: #F00000; display: block;"><a href="http://editor.ne16.com/htmleditor/Share.aspx?URL=http%3a%2f%2feditor.ne16.com%2fvo%2f%3fFileID%3d[[FileID]]&amp;Network=1&amp;MemberID=[members_.memberidguid_]&amp;FileID=[[FileID]]&amp;MailID=[outmail.messageid]" style="color: #F00000; font-size:13px; line-height:24px; font-weight: bold; font-family: Helvetica, Arial, sans-serif; text-decoration: none;  width:100%; display:inline-block">Share on Facebook</a></td>
+									</tr>
+								</table>
+								
+								</td>
+							</tr>
+						</table>
+						<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="w100">
+							<tr>
+								<td width="600" align="center" style="font-family: Arial, Helvetica, sans-serif; color: #CCCCCC; font-size: 13px; line-height: 17px;padding-bottom:10px;">This promotional email was sent to: <a style="color: #CCCCCC;">%%EmailAddr_%%</a><br /><a href="http://editor.des07.com/0AboutUs/Privacy_email.asp" style="color:#CCCCCC;">Privacy Policy</a></td>
+							</tr>
+						</table>
+						<!-- //END Unsub Footer-->
+
+					</td>
+				</tr>
+			</table>
+
+    </td>
+  </tr>
+</table>
+<!-- //END Footer -->
+
+<div style="background-color: #ffffff; display:none; white-space:nowrap; font:15px courier; color:#ffffff;">
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+</div>
+</body>
+</html>
